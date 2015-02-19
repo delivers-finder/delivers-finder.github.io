@@ -153,6 +153,14 @@ var waitForInput = function(){
 		checkZipcode();
 	});
 
+	$(".facebook").click(function(){ 
+		_gaq.push(['_trackEvent', 'Social Media', 'share on facebook', zipcode]);
+	});
+
+	$(".twitter").click(function(){ 
+		_gaq.push(['_trackEvent', 'Social Media', 'share on twitter', zipcode]);
+	});
+
 }
 
 $(document).ready(waitForInput);
