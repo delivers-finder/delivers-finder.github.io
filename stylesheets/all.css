@@ -143,15 +143,22 @@ input.search-form-button {
     color: #fff;
 }
 
-.shops {
-    margin: 50px 0;
+.output {
+    display: none;
+    margin: 30px 0 10px;
+    text-align: center;
 }
+
+.output-count {
+    font-weight: bold;
+}
+
 
 .shop {
     float: left;
     width: 300px;
     height: 80px;
-    margin: 50px 0;
+    margin: 30px 0;
     text-align: center;
 }
 

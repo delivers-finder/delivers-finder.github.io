@@ -21,13 +21,14 @@ var fooddeTwo = ['10'];
 var fooddeThree = ['120','121','133','136','140'];
 var fooddeFour = ['1243','1316','1318'];
 var foodde = ['13053','13055','13086','13088','13089','13405','13597','14199','14197','12203','12247','12249','12459','12487','12619','12689','13156','13403','13409','13599','12559','13407','12205','12629','13051','13057','13158','13435','13469','12351','14129','12681','13507','12357','12685','12207','12524','13439','12627','12209','12353','12279','13509','13507','12349','13437','14163','13059','12347','14165','14195','12557','12555','12683','12687','12489','12587','14167','14169','14129','12679','12621','14193','14195','13351','12227','12305','12309','12355','12359','12437','12623','12689','13156','14109','14467','12526','14467','14469','14471','14473','14478','14480','14482','13585','13127','13125','04158','04157','04129','04357','04329','04319','04316','04288','04289','04299','04318','04328','04347','04315','04317','04279','04277','04275','04103','04107','04109','04105','04155','04159','04179','04177','04229','04249','04207','04209','04205','04178','04356','04349','04416','04425','04420','04255','04451','04347','04435','04824','40210','40211','40212','40213','40215','40217','40219','40221','40223','40225','40227','40229','40231','40233','40235','40237','40239','40468','40470','40472','40474','40476','40477','40479','40489','40545','40547','40549','40589','40591','40593','40595','40597','40599','40625','40627','40629','40723','40789','40822','40724','40721','40723','40699','40764','42651','42653','42655','42657','42659','42697','42699','42719','42799','41460','41462','41464','41466','41468','41469','40472','40878','40880','40882','40883','40885','40667','42781','42103','42105','42107','42109','42115','42117','42119','42275','42277','42279','42281','42283','42285','42287','42289','42327','42329','42349','42389','50667','50668','50670','50672','50674','50676','50677','50678','50679','50733','50735','50737','50739','50765','50767','50769','50823','50825','50827','50829','50858','50859','50931','50933','50935','50937','50939','50968','50969','50996','50997','50999','51061','51063','51065','51067','51069','51103','51105','51107','51109','51143','51145','51147','51149','51371','51373','51379','50259','53111','53113','53115','53117','53119','53121','53123','53125','53127','53129','53173','53175','53177','53179','53225','53227','53229','50389','51375','50354','60308','60311','60313','60314','60316','60318','60320','60322','60323','60325','60326','60327','60329','60385','60386','60388','60389','60431','60433','60435','60437','60438','60439','60486','60487','60488','60489','60528','60529','60549','60594','60596','60598','60599','65929','65931','65933','65934','65936','65812','65843','65760','61462','61440','61348','61350','61352','65824','61476','61381','61449','65719','65795','65830','65779','65835']
+var zipcode, shopContainer, output, outputCount;
 
-var showShops = function(zipcode, shops){
-	var shopContainer = $('.shops');
-	shopContainer.hide()
-	shopContainer.html('');
+var showShops = function(shops){
 	var imagepath = '/images/shops/';
-	var simploraLink = 'https://www.simplora.de/kategorien/'
+	var simploraLink = 'https://www.simplora.de/kategorien/';
+	outputCount.text(counter);
+	output.show();
+	shopContainer.show();
 	if(shops.rewe){
 		var shop = $('<div class="shop"/>');
 		shop.html('<a href="'+simploraLink+'" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto rewe\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'rewe.jpg" class="shop-image" /></a>');
@@ -71,21 +72,30 @@ var showShops = function(zipcode, shops){
 	shopContainer.fadeIn('slow');
 }
 
-var checkShops = function(zipcode){
+var checkShop = function(zip, shop){
+	if($.inArray(zip,shop) > -1){
+		counter++;
+		return true;
+	}else{
+		return false;
+	}
+}
+
+var checkShops = function(){
 
 	var freshfoodsCheck, bringmeisterCheck, shopwingsCheck, reweCheck, fooddeCheck;
 
-	freshfoodsCheck   = $.inArray(zipcode,freshfoods)   > -1 ? true : false;
-	bringmeisterCheck = $.inArray(zipcode,bringmeister) > -1 ? true : false;
-	shopwingsCheck    = $.inArray(zipcode,shopwings)    > -1 ? true : false;
-	reweCheck         = $.inArray(zipcode,rewe)         > -1 ? true : false;
-	if($.inArray(zipcode.slice(0,2),fooddeTwo) > -1){
+	freshfoodsCheck   = checkShop(zipcode,freshfoods)
+	bringmeisterCheck = checkShop(zipcode,bringmeister)
+	shopwingsCheck    = checkShop(zipcode,shopwings)
+	reweCheck         = checkShop(zipcode,rewe)
+	if(checkShop(zipcode.slice(0,2),fooddeTwo)){
 		fooddeCheck = true;
-	}else if($.inArray(zipcode.slice(0,3),fooddeThree) > -1){
+	}else if(checkShop(zipcode.slice(0,3),fooddeThree)){
 		fooddeCheck = true;
-	}else if($.inArray(zipcode.slice(0,4),fooddeFour) > -1){
+	}else if(checkShop(zipcode.slice(0,4),fooddeFour)){
 		fooddeCheck = true;
-	}else if($.inArray(zipcode,foodde) > -1){
+	}else if(checkShop(zipcode,foodde)){
 		fooddeCheck = true;
 	}else {
 		fooddeCheck = false;
@@ -99,25 +109,34 @@ var checkShops = function(zipcode){
 		foodde       : fooddeCheck
 	};
 
-	showShops(zipcode, shops);
+	showShops(shops);
 }
 
-var checkZipcode = function(zipcode){
+
+var checkZipcode = function(){
 	var zipRegex = /^\d{5}$/;
     if (!zipRegex.test(zipcode)){
         $('.error').show();
     }else{
-        checkShops(zipcode);
+        checkShops();
     }
 }
 
 var waitForInput = function(){
 
+	shopContainer = $('.shops');
+	output = $('.output');
+	outputCount = $('.output-count');
+
 	$('.search-form').submit(function(event){
 		event.preventDefault();
 		$('.error').hide();
-		var zipcode = $(this).find('input.search-form-input').val();
-		checkZipcode(zipcode);
+		shopContainer.hide()
+		output.hide();
+		shopContainer.html('');
+		counter = 4;
+		zipcode = $(this).find('input.search-form-input').val();
+		checkZipcode();
 	});
 
 }
