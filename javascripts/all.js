@@ -75,6 +75,9 @@ var showShops = function(shops){
 var checkShop = function(zip, shop){
 	if($.inArray(zip,shop) > -1){
 		counter++;
+		if(shop == shopwings){
+			counter++;
+		}
 		return true;
 	}else{
 		return false;
