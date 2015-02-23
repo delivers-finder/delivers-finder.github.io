@@ -128,9 +128,10 @@ var checkShops = function(){
 var checkZipcode = function(){
 	var zipRegex = /^\d{5}$/;
     if (!zipRegex.test(zipcode)){
-        $('.error').show();
+      $('.error').show();
     }else{
-        checkShops();
+    	_gaq.push(['_trackEvent', 'Search Terms', 'PLZ', zipcode]);
+      checkShops();
     }
 }
 
