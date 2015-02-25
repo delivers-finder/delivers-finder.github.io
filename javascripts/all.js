@@ -61,7 +61,7 @@ var showShops = function(shops){
 	}
 	if(shops.emmasenkel){
 		var shop = $('<div class="shop"/>');
-		shop.html('<a href="http://http://www.emmas-enkel.de/" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto emmasenkel\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'emmasenkel.jpg" class="shop-image" /></a>');
+		shop.html('<a href="http://www.emmas-enkel.de/" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto emmasenkel\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'emmasenkel.jpg" class="shop-image" /></a>');
 		shopContainer.append(shop);
 	}
 	if(shops.bringmeister){
