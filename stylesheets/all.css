@@ -166,6 +166,10 @@ input.search-form-button {
     text-align: center;
 }
 
+.shop img:hover {
+    cursor: pointer;
+}
+
 .shop-image {
     max-width: 125px;
     max-height: 80px;

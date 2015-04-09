@@ -32,48 +32,103 @@ var showShops = function(shops){
 	shopContainer.show();
 	if(shops.rewe){
 		var shop = $('<div class="shop"/>');
-		shop.html('<a href="'+simploraLink+'" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto rewe\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'rewe.jpg" class="shop-image" /></a>');
+		var innerShop = $('<img src="'+imagepath+'rewe.jpg" class="shop-image" />');
+		innerShop.click(function(){ 
+			window.open('http://ad.zanox.com/ppc/?29330905C1074504051&ulp=[[http://www.rewe.de]]','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto rewe', zipcode]);
+		});
+		shop.append(innerShop);
 		shopContainer.append(shop);
 	}
 	var ayn = $('<div class="shop"/>');
-	ayn.html('<a href="'+simploraLink+'" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto allyouneed\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'allyouneed.jpg" class="shop-image" /></a>');
+	var innerAyn = $('<img src="'+imagepath+'allyouneed.jpg" class="shop-image" />');
+	innerAyn.click(function(){ 
+			window.open('http://ad.zanox.com/ppc/?28321651C35746676&ULP=[[http://t23.intelliad.de/index.php?redirect=http%3A%2F%2Fwww.allyouneed.com%3Fcampaign%3Daffiliate%2Fzanox%2Fkw50-standard%26ia-pkpmtrack%3D100-9353735313236323131303-111-261-101&cl=2323435333236323131303&bm=100&bmcl=9353735313236323131303&cp=111&ag=101&crid=101&subid=Keyword1]]','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto allyouneed', zipcode]);
+		});
+	ayn.append(innerAyn);
 	shopContainer.append(ayn);
 	var mytime = $('<div class="shop"/>');
-	mytime.html('<a href="'+simploraLink+'" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto mytime\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'mytime.jpg" class="shop-image" /></a>');
+	var innerMytime = $('<img src="'+imagepath+'mytime.jpg" class="shop-image" />');
+	innerMytime.click(function(){ 
+			window.open(simploraLink,'mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto mytime', zipcode]);
+		});
+	mytime.append(innerMytime);
 	shopContainer.append(mytime);
 	if(shops.foodde){
 		var shop = $('<div class="shop"/>');
-		shop.html('<a href="https://food.de/" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto foodde\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'foodde.png" class="shop-image" /></a>');
+		var innerShop = $('<img src="'+imagepath+'foodde.png" class="shop-image" />');
+		innerShop.click(function(){ 
+			window.open('//www.food.de/?utm_source=Simplora.de&utm_medium=cpc&utm_term=simplora&utm_campaign=simplora-campaign','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto foodde', zipcode]);
+		});
+		shop.append(innerShop);
 		shopContainer.append(shop);
 	}
 	if(shops.freshfoods){
 		var shop = $('<div class="shop"/>');
-		shop.html('<a href="https://www.freshfoods.de" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto freshfoods\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'freshfoods.jpeg" class="shop-image" /></a>');
+		var innerShop = $('<img src="'+imagepath+'freshfoods.jpeg" class="shop-image" />');
+		innerShop.click(function(){ 
+			window.open('https://www.freshfoods.de','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto freshfoods', zipcode]);
+		});
+		shop.append(innerShop);
 		shopContainer.append(shop);
 	}
 	if(shops.shopwings){
 		var aldi = $('<div class="shop"/>');
-		aldi.html('<a href="https://www.shopwings.de" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto aldi\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'aldi.jpg" class="shop-image" ></a>');
+		var innerAldi = $('<img src="'+imagepath+'aldi.jpg" class="shop-image" />');
+		innerAldi.click(function(){ 
+			window.open('https://www.shopwings.de','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto aldi', zipcode]);
+		});
+		aldi.append(innerAldi);
 		var lidl = $('<div class="shop"/>');
-		lidl.html('<a href="https://www.shopwings.de" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto lidl\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'lidl.png" class="shop-image" /></a>');
+		var innerLidl = $('<img src="'+imagepath+'lidl.png" class="shop-image" />');
+		innerLidl.click(function(){ 
+			window.open('https://www.shopwings.de','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto lidl', zipcode]);
+		});
+		lidl.append(innerLidl);
 		shopContainer.append(aldi);
 		shopContainer.append(lidl);
 	}
 	if(shops.emmasenkel){
 		var shop = $('<div class="shop"/>');
-		shop.html('<a href="http://www.emmas-enkel.de/" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto emmasenkel\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'emmasenkel.jpg" class="shop-image" /></a>');
+		var innerShop = $('<img src="'+imagepath+'emmasenkel.jpg" class="shop-image" />');
+		innerShop.click(function(){ 
+			window.open('http://www.emmas-enkel.de/','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto emmasenkel', zipcode]);
+		});
+		shop.append(innerShop);
 		shopContainer.append(shop);
 	}
 	if(shops.bringmeister){
 		var shop = $('<div class="shop"/>');
-		shop.html('<a href="https://www.bringmeister.de" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto bringmeister\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'bringmeister.png" class="shop-image" /></a>');
+		var innerShop = $('<img src="'+imagepath+'bringmeister.png" class="shop-image" />');
+		innerShop.click(function(){ 
+			window.open('https://www.bringmeister.de','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto bringmeister', zipcode]);
+		});
+		shop.append(innerShop);
 		shopContainer.append(shop);
 	}
 	var rossmann = $('<div class="shop"/>');
-	rossmann.html('<a href="'+simploraLink+'" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto rossmann\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'rossmann.png" class="shop-image" /></a>');
+	var innerRossmann = $('<img src="'+imagepath+'rossmann.png" class="shop-image" />');
+		innerRossmann.click(function(){ 
+			window.open('http://ad.zanox.com/ppc/?30473604C681429621&ULP=[[http://www.rossmannversand.de?campaign=affiliate/zanox/rossmann]]','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto rossmann', zipcode]);
+		});
+		rossmann.append(innerRossmann);
 	shopContainer.append(rossmann);
 	var edeka = $('<div class="shop"/>');
-	edeka.html('<a href="'+simploraLink+'" onclick="_gaq.push([\'_trackEvent\', \'Search Results\', \'goto edeka24\', \''+zipcode+'\']);" target="_blank"><img src="'+imagepath+'edeka.png" class="shop-image" /></a>');
+	var innerEdeka = $('<img src="'+imagepath+'edeka.png" class="shop-image" />');
+		innerEdeka.click(function(){ 
+			window.open('http://ad.zanox.com/ppc/?28305147C2085983573&ULP=[[http://www.edeka24.de]]','mywindow');
+			_gaq.push(['_trackEvent', 'Search Results', 'goto edeka24', zipcode]);
+		});
+		edeka.append(innerEdeka);
 	shopContainer.append(edeka);
 	shopContainer.fadeIn('slow');
 	social.show();
