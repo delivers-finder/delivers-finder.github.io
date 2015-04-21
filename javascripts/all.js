@@ -40,7 +40,7 @@ var showShops = function(shops){
 		shopContainer.append(shop);
 	}
 	var ayn = $('<div class="shop col-xs-12  col-sm-12 col-md-4"/>');
-	var innerAyn = $('<img src="'+imagepath+'allyouneed.jpg" class="shop-image" />');
+	var innerAyn = $('<img src="'+imagepath+'allyouneed.png" class="shop-image" />');
 	innerAyn.click(function(){ 
 			window.open('http://ad.zanox.com/ppc/?28321651C35746676&ULP=[[http://t23.intelliad.de/index.php?redirect=http%3A%2F%2Fwww.allyouneed.com%3Fcampaign%3Daffiliate%2Fzanox%2Fkw50-standard%26ia-pkpmtrack%3D100-9353735313236323131303-111-261-101&cl=2323435333236323131303&bm=100&bmcl=9353735313236323131303&cp=111&ag=101&crid=101&subid=Keyword1]]','mywindow');
 			_gaq.push(['_trackEvent', 'Search Results', 'goto allyouneed', zipcode]);
