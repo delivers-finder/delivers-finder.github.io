@@ -30,19 +30,10 @@ h3 {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
-ul li {
-    list-style-position: outside;
-    padding-left: 1em;
-    margin-bottom: 8px;
-}
 
-ul li:before {
-    content:"\2713\0020";
-    color: #32a096;
-    margin-right: 10px;
-}
 
 .center {
     text-align: center;
@@ -78,10 +69,6 @@ ul li:before {
     text-align: center;
     font-size: 12px;
     margin: 25px 0 10px 0;
-}
-
-#footer a:link, a:visited {
-    color: #787878;
 }
 
 /******************/
@@ -185,6 +172,7 @@ input.search-form-button {
     text-align: center;
 }
 
+
 .btn-social {
     display: inline-block;
     border: none;
@@ -206,7 +194,17 @@ input.search-form-button {
     background-color: #3b5998;
     color: #fff!important;
 }
+
+.facebook>span {
+    color: #fff!important;
+}
 .twitter {
     background-color: #4099FF;
     color: #fff!important;
 }
+.twitter>span {
+    color: #fff!important;
+}
+
+/* Custom Styles */
+

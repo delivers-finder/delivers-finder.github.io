@@ -1,0 +1,654 @@
+/* glue: 0.9.4 hash: 4927e79a74 */
+
+        .sprites-testberichte-docmorris,
+.sprites-steps-3,
+.sprites-steps-2,
+.sprites-steps-1,
+.sprites-swap-euro,
+.sprites-testberichte-amazon,
+.sprites-testberichte-mytime,
+.sprites-testberichte-lebensmittel,
+.sprites-testberichte-violey,
+.sprites-testberichte-edeka24,
+.sprites-testberichte-aponeo,
+.sprites-testberichte-allyouneed,
+.sprites-testberichte-aporot,
+.sprites-testberichte-rewe,
+.sprites-testberichte-shopapotheke,
+.sprites-vouchers,
+.sprites-pig-category,
+.sprites-keys,
+.sprites-intelligent,
+.sprites-fav,
+.sprites-compare,
+.sprites-change,
+.sprites-cashback,
+.sprites-list-ups,
+.sprites-list-sad,
+.sprites-list-happy,
+.sprites-logo-140,
+.sprites-tds-logos,
+.sprites-simplo-list,
+.sprites-testberichte-food,
+.sprites-ssl-logo,
+.sprites-start-simplo,
+.sprites-start-pig,
+.sprites-start-lupe,
+.sprites-start-karte,
+.sprites-rewe,
+.sprites-hermes,
+.sprites-dpd,
+.sprites-dhl-paket,
+.sprites-dhl-kurier,
+.sprites-logo-small,
+.sprites-success,
+.sprites-truck,
+.sprites-pig,
+.sprites-tier,
+.sprites-special-offers,
+.sprites-obst-und-gemuese,
+.sprites-lebensmittel,
+.sprites-kuehltheke,
+.sprites-haushalt,
+.sprites-getraenke,
+.sprites-gesundheit,
+.sprites-drogerie-und-pflege,
+.sprites-cashbacks,
+.sprites-beauty-und-parfum,
+.sprites-baby,
+.sprites-chat-new,
+.sprites-change_arrow,
+.sprites-arrow-down,
+.sprites-next-page-btn,
+.sprites-last-page-btn,
+.sprites-back-btn,
+.sprites-infomark_gray,
+.sprites-infomark,
+.sprites-exclamationmark,
+.sprites-checkmark,
+.sprites-phone,
+.sprites-mail,
+.sprites-facebook,
+.sprites-chat,
+.sprites-plus-btn,
+.sprites-play-btn,
+.sprites-pause-btn,
+.sprites-minus-btn,
+.sprites-minus-btn-gray,
+.sprites-delete-btn,
+.sprites-twitter,
+.sprites-google,
+.sprites-lock,
+.sprites-arrow-down-green {
+            background-image: url('/images/sprites.png');
+            background-repeat: no-repeat;
+        }
+        
+        .sprites-testberichte-docmorris {
+            background-position: 0 0;
+            width: 274px;
+            height: 108px;
+        }
+        
+        .sprites-steps-3 {
+            background-position: 0 -108px;
+            width: 200px;
+            height: 80px;
+        }
+        
+        .sprites-steps-2 {
+            background-position: 0 -188px;
+            width: 200px;
+            height: 80px;
+        }
+        
+        .sprites-steps-1 {
+            background-position: -274px 0;
+            width: 200px;
+            height: 80px;
+        }
+        
+        .sprites-swap-euro {
+            background-position: 0 -268px;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .sprites-testberichte-amazon {
+            background-position: -274px -80px;
+            width: 170px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-mytime {
+            background-position: -200px -268px;
+            width: 169px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-lebensmittel {
+            background-position: -474px 0;
+            width: 168px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-violey {
+            background-position: -474px -108px;
+            width: 167px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-edeka24 {
+            background-position: -474px -216px;
+            width: 167px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-aponeo {
+            background-position: -474px -324px;
+            width: 167px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-allyouneed {
+            background-position: 0 -468px;
+            width: 167px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-aporot {
+            background-position: -167px -468px;
+            width: 166px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-rewe {
+            background-position: -333px -468px;
+            width: 163px;
+            height: 108px;
+        }
+        
+        .sprites-testberichte-shopapotheke {
+            background-position: -642px 0;
+            width: 161px;
+            height: 108px;
+        }
+        
+        .sprites-vouchers {
+            background-position: -642px -108px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-pig-category {
+            background-position: -642px -258px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-keys {
+            background-position: -642px -408px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-intelligent {
+            background-position: 0 -576px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-fav {
+            background-position: -150px -576px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-compare {
+            background-position: -300px -576px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-change {
+            background-position: -450px -576px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-cashback {
+            background-position: -600px -576px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sprites-list-ups {
+            background-position: -803px 0;
+            width: 104px;
+            height: 141px;
+        }
+        
+        .sprites-list-sad {
+            background-position: -803px -141px;
+            width: 104px;
+            height: 141px;
+        }
+        
+        .sprites-list-happy {
+            background-position: -803px -282px;
+            width: 104px;
+            height: 141px;
+        }
+        
+        .sprites-logo-140 {
+            background-position: -474px -432px;
+            width: 140px;
+            height: 33px;
+        }
+        
+        .sprites-tds-logos {
+            background-position: -274px -188px;
+            width: 135px;
+            height: 34px;
+        }
+        
+        .sprites-simplo-list {
+            background-position: 0 -726px;
+            width: 110px;
+            height: 130px;
+        }
+        
+        .sprites-testberichte-food {
+            background-position: -200px -376px;
+            width: 120px;
+            height: 74px;
+        }
+        
+        .sprites-ssl-logo {
+            background-position: -320px -376px;
+            width: 110px;
+            height: 52px;
+        }
+        
+        .sprites-start-simplo {
+            background-position: -803px -423px;
+            width: 70px;
+            height: 70px;
+        }
+        
+        .sprites-start-pig {
+            background-position: -803px -493px;
+            width: 70px;
+            height: 70px;
+        }
+        
+        .sprites-start-lupe {
+            background-position: -803px -563px;
+            width: 70px;
+            height: 70px;
+        }
+        
+        .sprites-start-karte {
+            background-position: -803px -633px;
+            width: 70px;
+            height: 70px;
+        }
+        
+        .sprites-rewe {
+            background-position: -200px -108px;
+            width: 66px;
+            height: 50px;
+        }
+        
+        .sprites-hermes {
+            background-position: -200px -188px;
+            width: 66px;
+            height: 50px;
+        }
+        
+        .sprites-dpd {
+            background-position: -369px -268px;
+            width: 66px;
+            height: 50px;
+        }
+        
+        .sprites-dhl-paket {
+            background-position: -369px -318px;
+            width: 66px;
+            height: 50px;
+        }
+        
+        .sprites-dhl-kurier {
+            background-position: -496px -468px;
+            width: 66px;
+            height: 50px;
+        }
+        
+        .sprites-logo-small {
+            background-position: -496px -518px;
+            width: 41px;
+            height: 55px;
+        }
+        
+        .sprites-success {
+            background-position: -562px -468px;
+            width: 50px;
+            height: 50px;
+        }
+        
+        .sprites-truck {
+            background-position: -274px -222px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-pig {
+            background-position: -314px -222px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-tier {
+            background-position: -354px -222px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-special-offers {
+            background-position: -394px -222px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-obst-und-gemuese {
+            background-position: -434px -222px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-lebensmittel {
+            background-position: -430px -376px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-kuehltheke {
+            background-position: -537px -518px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-haushalt {
+            background-position: -577px -518px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-getraenke {
+            background-position: -750px -576px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-gesundheit {
+            background-position: -750px -616px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-drogerie-und-pflege {
+            background-position: -750px -656px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-cashbacks {
+            background-position: -110px -726px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-beauty-und-parfum {
+            background-position: -150px -726px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-baby {
+            background-position: -190px -726px;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .sprites-chat-new {
+            background-position: -435px -268px;
+            width: 35px;
+            height: 35px;
+        }
+        
+        .sprites-change_arrow {
+            background-position: -873px -423px;
+            width: 30px;
+            height: 25px;
+        }
+        
+        .sprites-arrow-down {
+            background-position: -873px -448px;
+            width: 15px;
+            height: 30px;
+        }
+        
+        .sprites-next-page-btn {
+            background-position: -873px -493px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        .sprites-last-page-btn {
+            background-position: -873px -518px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        .sprites-back-btn {
+            background-position: -873px -563px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        .sprites-infomark_gray {
+            background-position: -873px -543px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-infomark {
+            background-position: -873px -588px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-exclamationmark {
+            background-position: -873px -608px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-checkmark {
+            background-position: -873px -633px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-phone {
+            background-position: -873px -653px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-mail {
+            background-position: -873px -673px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-facebook {
+            background-position: -803px -703px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-chat {
+            background-position: -823px -703px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .sprites-plus-btn {
+            background-position: -888px -448px;
+            width: 17px;
+            height: 17px;
+        }
+        
+        .sprites-play-btn {
+            background-position: -843px -703px;
+            width: 17px;
+            height: 17px;
+        }
+        
+        .sprites-pause-btn {
+            background-position: -860px -703px;
+            width: 17px;
+            height: 17px;
+        }
+        
+        .sprites-minus-btn {
+            background-position: -877px -703px;
+            width: 17px;
+            height: 17px;
+        }
+        
+        .sprites-minus-btn-gray {
+            background-position: -642px -558px;
+            width: 17px;
+            height: 17px;
+        }
+        
+        .sprites-delete-btn {
+            background-position: -659px -558px;
+            width: 17px;
+            height: 17px;
+        }
+        
+        .sprites-twitter {
+            background-position: -873px -478px;
+            width: 15px;
+            height: 15px;
+        }
+        
+        .sprites-google {
+            background-position: -888px -478px;
+            width: 15px;
+            height: 15px;
+        }
+        
+        .sprites-lock {
+            background-position: -893px -543px;
+            width: 10px;
+            height: 15px;
+        }
+        
+        .sprites-arrow-down-green {
+            background-position: -888px -465px;
+            width: 11px;
+            height: 8px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .sprites-testberichte-docmorris,
+    .sprites-steps-3,
+    .sprites-steps-2,
+    .sprites-steps-1,
+    .sprites-swap-euro,
+    .sprites-testberichte-amazon,
+    .sprites-testberichte-mytime,
+    .sprites-testberichte-lebensmittel,
+    .sprites-testberichte-violey,
+    .sprites-testberichte-edeka24,
+    .sprites-testberichte-aponeo,
+    .sprites-testberichte-allyouneed,
+    .sprites-testberichte-aporot,
+    .sprites-testberichte-rewe,
+    .sprites-testberichte-shopapotheke,
+    .sprites-vouchers,
+    .sprites-pig-category,
+    .sprites-keys,
+    .sprites-intelligent,
+    .sprites-fav,
+    .sprites-compare,
+    .sprites-change,
+    .sprites-cashback,
+    .sprites-list-ups,
+    .sprites-list-sad,
+    .sprites-list-happy,
+    .sprites-logo-140,
+    .sprites-tds-logos,
+    .sprites-simplo-list,
+    .sprites-testberichte-food,
+    .sprites-ssl-logo,
+    .sprites-start-simplo,
+    .sprites-start-pig,
+    .sprites-start-lupe,
+    .sprites-start-karte,
+    .sprites-rewe,
+    .sprites-hermes,
+    .sprites-dpd,
+    .sprites-dhl-paket,
+    .sprites-dhl-kurier,
+    .sprites-logo-small,
+    .sprites-success,
+    .sprites-truck,
+    .sprites-pig,
+    .sprites-tier,
+    .sprites-special-offers,
+    .sprites-obst-und-gemuese,
+    .sprites-lebensmittel,
+    .sprites-kuehltheke,
+    .sprites-haushalt,
+    .sprites-getraenke,
+    .sprites-gesundheit,
+    .sprites-drogerie-und-pflege,
+    .sprites-cashbacks,
+    .sprites-beauty-und-parfum,
+    .sprites-baby,
+    .sprites-chat-new,
+    .sprites-change_arrow,
+    .sprites-arrow-down,
+    .sprites-next-page-btn,
+    .sprites-last-page-btn,
+    .sprites-back-btn,
+    .sprites-infomark_gray,
+    .sprites-infomark,
+    .sprites-exclamationmark,
+    .sprites-checkmark,
+    .sprites-phone,
+    .sprites-mail,
+    .sprites-facebook,
+    .sprites-chat,
+    .sprites-plus-btn,
+    .sprites-play-btn,
+    .sprites-pause-btn,
+    .sprites-minus-btn,
+    .sprites-minus-btn-gray,
+    .sprites-delete-btn,
+    .sprites-twitter,
+    .sprites-google,
+    .sprites-lock,
+    .sprites-arrow-down-green {
+                background-image: url('/images/sprites.png');
+                -webkit-background-size: 907px 856px;
+                -moz-background-size: 907px 856px;
+                background-size: 907px 856px;
+            }
+        }
+        

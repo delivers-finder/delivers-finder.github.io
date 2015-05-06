@@ -12,7 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
     <title>Welcher Online-Supermarkt liefert zu Deiner PLZ? Jetzt Suche beginnen</title>
-    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all.css" rel="stylesheet" type="text/css" /><link href="stylesheets/application.css" rel="stylesheet" type="text/css" />
     <script src="javascripts/jquery-2.1.3.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="javascripts/ga.js" type="text/javascript"></script>
@@ -34,7 +34,350 @@
               <input class="search-form-button" type="submit" value="Finden">
             </form>
             <div class="output">Super, diese <span class="output-count"> </span> verschiedenen Online-Supermärkte beliefern Deine Postleitzahl:</div>
-            <div class="shops">
+            <div class="shops knowledge-shop-columns-wrapper">
+              <div class ="rewe">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-rewe.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>REWE online</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Tiefkühlprodukte</li>
+      								<li><img src="/images/success-checkmark.png"> Eigenmarken</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Ersatzprodukte</li>
+      								<li><img src="/images/negative.png"> Fehlende Großstädte</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>2,90 - 4,90€</em><br><span>entfallen ab 100€</span>
+      		<a href="/wissen/online-supermaerkte/rewe-online/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="allyouneed">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-allyouneed.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>Allyouneed Fresh</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Lebensmittel</li>
+      							  <li>&#10003; Frischeprodukte</li>
+      								<li>&#10005; keine Tiefkühlprodukte</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Kein Mindestbestellwert</li>
+      								<li><img src="/images/success-checkmark.png"> Versandkostenfrei ab 40€</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Teilweise Frischeaufschlag</li>
+      								<li><img src="/images/negative.png"> Getränkekisten nur mit Kurier</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>4,90€</em><br><span>entfallen ab 40€</span>
+      		<a href="/wissen/online-supermaerkte/allyouneed/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="aldi">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-aldi.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>ALDI Nord / ALDI Süd</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Geliefert durch Shopwings</li>
+      							 	<li><img src="/images/success-checkmark.png"> Discounter-Ware</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Nur in Berlin und München</li>
+      								<li><img src="/images/negative.png"> Kein eigener Lieferservice</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>4,90€</em><br>
+      		<a href="/wissen/online-supermaerkte/aldi-online-shop/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="lidl">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-lidl.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>Lidl</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Geliefert durch Shopwings</li>
+      								<li><img src="/images/success-checkmark.png"> Discounter-Ware</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Nur in Berlin und München</li>
+      								<li><img src="/images/negative.png"> Kein eigener Lieferservice</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>4,90€</em><br>
+      		<a href="/wissen/online-supermaerkte/lidl-online-shop/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="foodde">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-food.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>Food.de</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Frische Produkte</li>
+      								<li><img src="/images/success-checkmark.png"> Tiefkühlprodukte</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Fehlende Großstädte</li>
+      								<li><img src="/images/negative.png"> Fixe Versandkosten</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>5,00€</em><br>
+      		<a href="/wissen/online-supermaerkte/food-de/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="mytime">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-mytime.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>myTime.de</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Kein Mindestbestellwert</li>
+      								<li><img src="/images/success-checkmark.png"> Tiefkühlprodukte</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Kühlbox mit Pfand</li>
+      								<li><img src="/images/negative.png"> Paketversand</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>2,99 - 4,99€</em><br><span>entfallen ab 65€</span>
+      		<a href="/wissen/online-supermaerkte/mytime/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="rossmann">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-rossmann.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>Rossmann</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Drogerie Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Sehr großes Sortiment</li>
+      								<li><img src="/images/success-checkmark.png"> Kein Mindestbestellwert</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Kein Wunschliefertermin</li>
+      								<li><img src="/images/negative.png"> Fixe Versandkosten</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>4,95€</em><br>
+      		<a href="/wissen/online-drogerien/rossmann/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="edeka24">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-edeka24.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>EDEKA24</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Lebensmittel</li>
+      								<li>&#10005; keine Frische- oder Tiefkühlprodukte</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Deutschlandweit</li>
+      								<li><img src="/images/success-checkmark.png"> Eigenmarken</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Kein Wunschliefertermin</li>
+      								<li><img src="/images/negative.png"> Keine Kühlprodukte</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>3,95€</em><br><span>entfallen ab 75€</span>
+      		<a href="/wissen/online-supermaerkte/edeka24/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="real">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-real.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>real,- DRIVE</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Kein Mindestbestellwert</li>
+      								<li><img src="/images/success-checkmark.png"> Eigenmarken</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Nur in bestimmten Städten</li>
+      								<li><img src="/images/negative.png"> Fixe Lieferkosten</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>5,95€</em><br>
+      		<a href="/wissen/online-supermaerkte/real/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div>
+              </div>
+              <div class ="lebensmittel">
+                <div class="knowledge-shop-columns">
+      	<div class="one-column shopbox">
+      		<img src="images/shops/small-lebensmittel.png" />
+      	</div>
+      	<div class="two-column shopbox">
+      		<div class="headline-small">
+      			<h3>Lebensmittel.de</h3>
+      		</div>
+      		<ul class="assortment">
+      			<li><em>Sortiment:</em></li>
+      			<li>&#10003; Vollsortiment</li>
+      		</ul>
+      		<div class="two-grid">
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/success-checkmark.png"> Kein Mindestbestellwert</li>
+      								<li><img src="/images/success-checkmark.png"> Tiefkühlprodukte</li>
+      				</ul>
+      			</div>
+      			<div>
+      				<ul class="knowledge-shopbox-list">
+      					<li><img src="/images/negative.png"> Kein Wunschliefertermin</li>
+      								<li><img src="/images/negative.png"> Produkte im Vergleich teurer</li>
+      				</ul>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="one-column shopbox">
+      			<span>Versandkosten:</span><br><em>4,90€</em><br><span>entfallen ab 40€</span>
+      		<a href="/wissen/online-supermaerkte/lebensmittel-de/"><button class='main-button'>mehr Details</button></a>
+      	</div>
+      </div> 
+              </div>
             </div>
             <div class="clear"></div>
           </div>
