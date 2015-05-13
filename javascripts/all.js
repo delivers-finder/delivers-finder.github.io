@@ -51,7 +51,6 @@ var showShops = function(shops){
   $('.mytime').show();
   $('.rossmann').show();
   $('.edeka24').show();
-  $('.edeka24').show();
   $('.lebensmittel').show();
 
 	shopContainer.fadeIn('slow');
@@ -61,9 +60,6 @@ var showShops = function(shops){
 var checkShop = function(zip, shop){
 	if($.inArray(zip,shop) > -1){
 		counter++;
-		if(shop == shopwings){
-			counter++;
-		}
 		return true;
 	}else{
 		return false;
@@ -132,7 +128,7 @@ var waitForInput = function(){
     shopContainer.children().hide();
 		social.hide();
 		output.hide();
-		counter = 4;
+		counter = 5;
 		zipcode = $(this).find('input.search-form-input').val();
 		checkZipcode();
 	});
@@ -145,6 +141,10 @@ var waitForInput = function(){
 		_gaq.push(['_trackEvent', 'Social Media', 'share on twitter', zipcode]);
 	});
 
+}
+
+var ga = function(name) {
+  _gaq.push(['_trackEvent', 'Search Results', name , zipcode]);
 }
 
 $(document).ready(waitForInput);
