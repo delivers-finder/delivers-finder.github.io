@@ -1,157 +1,9 @@
-/* Vendor libraries */
 /* line 2, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/neat/grid/_grid.css.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 1, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-parent {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle; }
-
-/* line 7, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-choice {
-  padding: 0;
-  position: relative;
-  text-align: left;
-  white-space: nowrap;
-  text-decoration: none;
-  background-color: #fff;
-  box-shadow: none; }
-
-/* line 17, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-choice.disabled {
-  background-color: #f4f4f4;
-  background-image: none;
-  border: 1px solid #ddd;
-  cursor: default; }
-
-/* line 24, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-choice > span {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-  float: left;
-  padding-left: 8px; }
-
-/* line 33, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-choice > div {
-  float: right;
-  width: 20px;
-  height: 22px;
-  background: url("/images/multiple-select.png") left top no-repeat; }
-
-/* line 40, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-choice > div.open {
-  background: url("/images/multiple-select.png") right top no-repeat; }
-
-/* line 44, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop {
-  overflow: hidden;
-  display: none;
-  margin-top: -1px;
-  padding: 0;
-  position: absolute;
-  z-index: 3;
-  top: 100%;
-  background: #fff;
-  color: #000;
-  border: 1px solid #aaa; }
-
-/* line 58, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-search {
-  display: inline-block;
-  margin: 0;
-  min-height: 26px;
-  padding: 4px;
-  position: relative;
-  white-space: nowrap;
-  width: 100%;
-  z-index: 10000; }
-
-/* line 69, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-search input {
-  width: 100%;
-  height: auto !important;
-  min-height: 24px;
-  padding: 0 20px 0 5px;
-  margin: 0;
-  outline: 0;
-  font-family: sans-serif;
-  font-size: 1em;
-  border: 1px solid #aaa;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  background: #fff url("/images/multiple-select.png") no-repeat 100% -22px;
-  background: url("/images/multiple-select.png") no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
-  background: url("/images/multiple-select.png") no-repeat 100% -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url("/images/multiple-select.png") no-repeat 100% -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url("/images/multiple-select.png") no-repeat 100% -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
-  background: url("/images/multiple-select.png") no-repeat 100% -22px, -ms-linear-gradient(top, #ffffff 85%, #eeeeee 99%);
-  background: url("/images/multiple-select.png") no-repeat 100% -22px, linear, top, #ffffff 85%, #eeeeee 99%; }
-
-/* line 94, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-search, .ms-search input {
-  -webkit-box-sizing: border-box;
-  -khtml-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 102, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul {
-  overflow: auto;
-  margin: 0;
-  padding: 5px 8px; }
-
-/* line 108, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul > li {
-  list-style: none;
-  display: list-item;
-  background-image: none;
-  position: static; }
-
-/* line 115, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul > li .disabled {
-  opacity: .35;
-  filter: Alpha(Opacity=35); }
-
-/* line 120, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul > li.multiple {
-  display: block;
-  float: left; }
-
-/* line 125, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul > li.group {
-  clear: both; }
-
-/* line 129, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul > li.multiple label {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-
-/* line 135, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop ul > li label.optgroup {
-  font-weight: bold; }
-
-/* line 139, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop input[type="checkbox"] {
-  vertical-align: middle; }
-
-/* line 143, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/_multiple-select.css.scss */
-.ms-drop .ms-no-results {
-  display: none; }
-
-/* Helper functions */
-/* Base partials with general styling */
 /*doc
 ---
 title: Variables
@@ -458,7 +310,46 @@ p, .quantity-button, .knowledge-table th, .recommendation-box, .vouchers-box, .s
 .image-placeholder {
   visibility: hidden; }
 
-/* Components which can be used all over the site */
+/* line 2, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.shop-secondary-box a, .shop-secondary-box label.forgot-password {
+  color: #3c3c3b;
+  text-decoration: underline; }
+/* line 7, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.shop-secondary-box a:hover, .shop-secondary-box label.forgot-password:hover {
+  color: #6f6f6e; }
+
+/* line 14, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.overlay-box-footer a {
+  color: #787878;
+  text-decoration: underline; }
+/* line 19, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.overlay-box-footer a:hover {
+  color: #454545; }
+
+/* line 26, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.simplora-steps-box .simplora-steps > .simplora-step .simplora-step-item a, .vouchers-box a, .savings-box a, .single-voucher-box a, .medium-overlay-box-content a, .articles-grid-empty .articles-grid-empty-result a, .articles-grid-empty > .articles-grid-empty-description a, ul.alternative-shops-list a, .grid-title a {
+  color: #32a096;
+  text-decoration: none; }
+/* line 31, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.simplora-steps-box .simplora-steps > .simplora-step .simplora-step-item a:hover, .vouchers-box a:hover, .savings-box a:hover, .single-voucher-box a:hover, .medium-overlay-box-content a:hover, .articles-grid-empty .articles-grid-empty-result a:hover, .articles-grid-empty > .articles-grid-empty-description a:hover, ul.alternative-shops-list a:hover, .grid-title a:hover {
+  color: #267972; }
+
+/* line 38, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.grid-breadcrumbs a {
+  color: #3c3c3b;
+  text-decoration: none; }
+/* line 43, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.grid-breadcrumbs a:hover {
+  text-decoration: underline; }
+
+/* line 50, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.offer-box-list li:last-child a, .food-grid li:last-child a, .img-food-grid li:last-child a, .minor-category-grid li:last-child a {
+  color: #787878;
+  text-decoration: none; }
+/* line 55, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
+.offer-box-list li:last-child a:hover, .food-grid li:last-child a:hover, .img-food-grid li:last-child a:hover, .minor-category-grid li:last-child a:hover {
+  text-decoration: underline; }
+
 /*doc
 ---
 title: Buttons
@@ -499,7 +390,7 @@ Button                                                                         |
 /* line 47, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/components/_buttons.css.scss */
 .main-button, .call2action-button, .call2action-small-button, .call2action-big-button, .overlay-main-button {
   background-color: #e1412d;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #de3f2b), color-stop(100%, #d33c29));
+  background-image: _deprecated-webkit-gradient(linear, left top, left bottom, #de3f2b, #d33c29);
   background-image: -webkit-linear-gradient(#de3f2b, #d33c29);
   background-image: linear-gradient(#de3f2b, #d33c29);
   color: #fff !important; }
@@ -507,7 +398,7 @@ Button                                                                         |
 /* line 52, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/components/_buttons.css.scss */
 .button, .big-button, .secondary-button, .two-lines-button, .new-user-help-button {
   background-color: #32a096;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2ea297), color-stop(100%, #30988f));
+  background-image: _deprecated-webkit-gradient(linear, left top, left bottom, #2ea297, #30988f);
   background-image: -webkit-linear-gradient(#2ea297, #30988f);
   background-image: linear-gradient(#2ea297, #30988f);
   color: #fff !important; }
@@ -515,7 +406,7 @@ Button                                                                         |
 /* line 57, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/components/_buttons.css.scss */
 .minor-button, .longer-button, .minimal-button {
   background-color: #cbcbcb;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cbcbcb), color-stop(100%, #c1c1c1));
+  background-image: _deprecated-webkit-gradient(linear, left top, left bottom, #cbcbcb, #c1c1c1);
   background-image: -webkit-linear-gradient(#cbcbcb, #c1c1c1);
   background-image: linear-gradient(#cbcbcb, #c1c1c1);
   color: #3c3c3b; }
@@ -3870,43 +3761,3 @@ ul.alternative-shops-list li {
   float: left;
   width: 150px;
   min-height: 1000px; }
-
-/* line 2, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.shop-secondary-box a, .shop-secondary-box label.forgot-password {
-  color: #3c3c3b;
-  text-decoration: underline; }
-/* line 7, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.shop-secondary-box a:hover, .shop-secondary-box label.forgot-password:hover {
-  color: #6f6f6e; }
-
-/* line 14, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.overlay-box-footer a {
-  color: #787878;
-  text-decoration: underline; }
-/* line 19, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.overlay-box-footer a:hover {
-  color: #454545; }
-
-/* line 26, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.simplora-steps-box .simplora-steps > .simplora-step .simplora-step-item a, .vouchers-box a, .savings-box a, .single-voucher-box a, .medium-overlay-box-content a, .articles-grid-empty .articles-grid-empty-result a, .articles-grid-empty > .articles-grid-empty-description a, ul.alternative-shops-list a, .grid-title a {
-  color: #32a096;
-  text-decoration: none; }
-/* line 31, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.simplora-steps-box .simplora-steps > .simplora-step .simplora-step-item a:hover, .vouchers-box a:hover, .savings-box a:hover, .single-voucher-box a:hover, .medium-overlay-box-content a:hover, .articles-grid-empty .articles-grid-empty-result a:hover, .articles-grid-empty > .articles-grid-empty-description a:hover, ul.alternative-shops-list a:hover, .grid-title a:hover {
-  color: #267972; }
-
-/* line 38, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.grid-breadcrumbs a {
-  color: #3c3c3b;
-  text-decoration: none; }
-/* line 43, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.grid-breadcrumbs a:hover {
-  text-decoration: underline; }
-
-/* line 50, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.offer-box-list li:last-child a, .food-grid li:last-child a, .img-food-grid li:last-child a, .minor-category-grid li:last-child a {
-  color: #787878;
-  text-decoration: none; }
-/* line 55, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.offer-box-list li:last-child a:hover, .food-grid li:last-child a:hover, .img-food-grid li:last-child a:hover, .minor-category-grid li:last-child a:hover {
-  text-decoration: underline; }
