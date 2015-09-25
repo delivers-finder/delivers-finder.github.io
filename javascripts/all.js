@@ -26,13 +26,13 @@ var real = ['10115','10117','10119','10178','10179','10243','10245','10247','102
 var zipcode, shopContainer, output, outputCount, social;
 
 var showShops = function(shops){
-	var imagepath = '/images/shops/';
-	outputCount.text(counter);
-	output.show();
-	shopContainer.show();
-	if(shops.rewe){
-		$('.rewe').show();
-	}
+  var imagepath = '/images/shops/';
+  outputCount.text(counter);
+  output.show();
+  shopContainer.show();
+  if(shops.rewe){
+    $('.rewe').show();
+  }
   if(shops.foodde){
     $('.foodde').show();
   }
@@ -53,93 +53,93 @@ var showShops = function(shops){
   $('.edeka24').show();
   $('.lebensmittel').show();
 
-	shopContainer.fadeIn('slow');
-	social.show();
+  shopContainer.fadeIn('slow');
+  social.show();
 }
 
 var checkShop = function(zip, shop){
-	if($.inArray(zip,shop) > -1){
-		counter++;
-		return true;
-	}else{
-		return false;
-	}
+  if($.inArray(zip,shop) > -1){
+    counter++;
+    return true;
+  }else{
+    return false;
+  }
 }
 
 var checkShops = function(){
 
-	var freshfoodsCheck, bringmeisterCheck, shopwingsCheck, reweCheck, emmasenkelCheck, fooddeCheck, realCheck;
+  var freshfoodsCheck, bringmeisterCheck, shopwingsCheck, reweCheck, emmasenkelCheck, fooddeCheck, realCheck;
 
-	freshfoodsCheck   = checkShop(zipcode,freshfoods)
-	bringmeisterCheck = checkShop(zipcode,bringmeister)
-	shopwingsCheck    = checkShop(zipcode,shopwings)
-	reweCheck         = checkShop(zipcode,rewe)
-	emmasenkelCheck   = checkShop(zipcode,emmasenkel)
+  freshfoodsCheck   = checkShop(zipcode,freshfoods)
+  bringmeisterCheck = checkShop(zipcode,bringmeister)
+  shopwingsCheck    = checkShop(zipcode,shopwings)
+  reweCheck         = checkShop(zipcode,rewe)
+  emmasenkelCheck   = checkShop(zipcode,emmasenkel)
   realCheck         = checkShop(zipcode,real)
 
-	if(checkShop(zipcode.slice(0,2),fooddeTwo)){
-		fooddeCheck = true;
-	}else if(checkShop(zipcode.slice(0,3),fooddeThree)){
-		fooddeCheck = true;
-	}else if(checkShop(zipcode.slice(0,4),fooddeFour)){
-		fooddeCheck = true;
-	}else if(checkShop(zipcode,foodde)){
-		fooddeCheck = true;
-	}else {
-		fooddeCheck = false;
-	}
+  if(checkShop(zipcode.slice(0,2),fooddeTwo)){
+    fooddeCheck = true;
+  }else if(checkShop(zipcode.slice(0,3),fooddeThree)){
+    fooddeCheck = true;
+  }else if(checkShop(zipcode.slice(0,4),fooddeFour)){
+    fooddeCheck = true;
+  }else if(checkShop(zipcode,foodde)){
+    fooddeCheck = true;
+  }else {
+    fooddeCheck = false;
+  }
 
-	shops = {
-		freshfoods   : freshfoodsCheck,
-		bringmeister : bringmeisterCheck,
-		shopwings    : shopwingsCheck,
-		rewe         : reweCheck,
-		emmasenkel   : emmasenkelCheck,
-		foodde       : fooddeCheck,
+  shops = {
+    freshfoods   : freshfoodsCheck,
+    bringmeister : bringmeisterCheck,
+    shopwings    : shopwingsCheck,
+    rewe         : reweCheck,
+    emmasenkel   : emmasenkelCheck,
+    foodde       : fooddeCheck,
     real         : realCheck
-	};
+  };
 
-	showShops(shops);
+  showShops(shops);
 }
 
 
 var checkZipcode = function(){
-	var zipRegex = /^\d{5}$/;
+  var zipRegex = /^\d{5}$/;
     if (!zipRegex.test(zipcode)){
       $('.error').show();
     }else{
-    	_gaq.push(['_trackEvent', 'Search Terms', 'PLZ', zipcode]);
+      _gaq.push(['_trackEvent', 'Search Terms', 'PLZ', zipcode]);
       checkShops();
     }
 }
 
 var waitForInput = function(){
 
-	shopContainer = $('.shops');
-	output = $('.output');
-	outputCount = $('.output-count');
-	social = $('.social');
+  shopContainer = $('.shops');
+  output = $('.output');
+  outputCount = $('.output-count');
+  social = $('.social');
   shopContainer.hide();
 
-	$('.search-form').submit(function(event){
-		event.preventDefault();
-		$('.error').hide();
-		shopContainer.hide();
+  $('.search-form').submit(function(event){
+    event.preventDefault();
+    $('.error').hide();
+    shopContainer.hide();
     shopContainer.children().hide();
-		social.hide();
-		output.hide();
-		counter = 5;
-		zipcode = $(this).find('input.search-form-input').val();
-		checkZipcode();
-	});
+    social.hide();
+    output.hide();
+    counter = 5;
+    zipcode = $(this).find('input.search-form-input').val();
+    checkZipcode();
+  });
 
-	$(".facebook").click(function(){ 
-		_gaq.push(['_trackEvent', 'Social Media', 'share on facebook', zipcode]);
-	});
+  $(".facebook").click(function(){ 
+    _gaq.push(['_trackEvent', 'Social Media', 'share on facebook', zipcode]);
+  });
 
-	$(".twitter").click(function(){ 
-		_gaq.push(['_trackEvent', 'Social Media', 'share on twitter', zipcode]);
-	});
+  $(".twitter").click(function(){ 
+    _gaq.push(['_trackEvent', 'Social Media', 'share on twitter', zipcode]);
+  });
 
 }
 
