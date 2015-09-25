@@ -54,6 +54,9 @@ var showShops = function(shops){
   $('.lebensmittel').show();
 
   shopContainer.fadeIn('slow');
+  $('html, body').animate({
+    scrollTop: $(".output").offset().top
+  }, 2000);
   social.show();
 }
 
