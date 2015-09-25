@@ -2607,15 +2607,15 @@ em {
   border-top: 1px dashed #cbcbcb; }
 
 /* line 4, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/layout/_grids.css.scss */
-.articles-grid, .categories-articles-grid, .vouchers-grid, .alternative-articles-grid, .post-grid, .coupons-grid, .procons-grid, .knowledge-grid, .cities-grid, .food-grid, .img-food-grid, .minor-category-grid, .two-columns-grid, .two-grid, .user-story-grid, .selectionhelp-grid, .coupons-box-grid, .local-offers-advantages, .quarter-grid, .pampers-grid, .local-offers-grid, .brochures-grid, .cheapest-price-grid, .steps-grid, .box-grid, .top-grid, .shipping-grid {
+.articles-grid, .categories-articles-grid, .vouchers-grid, .alternative-articles-grid, .post-grid, .coupons-grid, .procons-grid, .knowledge-grid, .cities-grid, .food-grid, .img-food-grid, .minor-category-grid, .two-columns-grid, .two-grid, .user-story-grid, .selectionhelp-grid, .coupons-box-grid, .local-offers-advantages, .quarter-grid, .pampers-grid, .local-offers-grid, .brochures-grid, .cheapest-price-grid, .steps-grid, .box-grid, .top-grid, .shipping-grid, .filter-grid {
   *zoom: 1;
   overflow: hidden; }
   /* line 17, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/bourbon/addons/_clearfix.css.scss */
-  .articles-grid:before, .categories-articles-grid:before, .vouchers-grid:before, .alternative-articles-grid:before, .post-grid:before, .coupons-grid:before, .procons-grid:before, .knowledge-grid:before, .cities-grid:before, .food-grid:before, .img-food-grid:before, .minor-category-grid:before, .two-columns-grid:before, .two-grid:before, .user-story-grid:before, .selectionhelp-grid:before, .coupons-box-grid:before, .local-offers-advantages:before, .quarter-grid:before, .pampers-grid:before, .local-offers-grid:before, .brochures-grid:before, .cheapest-price-grid:before, .steps-grid:before, .box-grid:before, .top-grid:before, .shipping-grid:before, .articles-grid:after, .categories-articles-grid:after, .vouchers-grid:after, .alternative-articles-grid:after, .post-grid:after, .coupons-grid:after, .procons-grid:after, .knowledge-grid:after, .cities-grid:after, .food-grid:after, .img-food-grid:after, .minor-category-grid:after, .two-columns-grid:after, .two-grid:after, .user-story-grid:after, .selectionhelp-grid:after, .coupons-box-grid:after, .local-offers-advantages:after, .quarter-grid:after, .pampers-grid:after, .local-offers-grid:after, .brochures-grid:after, .cheapest-price-grid:after, .steps-grid:after, .box-grid:after, .top-grid:after, .shipping-grid:after {
+  .articles-grid:before, .categories-articles-grid:before, .vouchers-grid:before, .alternative-articles-grid:before, .post-grid:before, .coupons-grid:before, .procons-grid:before, .knowledge-grid:before, .cities-grid:before, .food-grid:before, .img-food-grid:before, .minor-category-grid:before, .two-columns-grid:before, .two-grid:before, .user-story-grid:before, .selectionhelp-grid:before, .coupons-box-grid:before, .local-offers-advantages:before, .quarter-grid:before, .pampers-grid:before, .local-offers-grid:before, .brochures-grid:before, .cheapest-price-grid:before, .steps-grid:before, .box-grid:before, .top-grid:before, .shipping-grid:before, .filter-grid:before, .articles-grid:after, .categories-articles-grid:after, .vouchers-grid:after, .alternative-articles-grid:after, .post-grid:after, .coupons-grid:after, .procons-grid:after, .knowledge-grid:after, .cities-grid:after, .food-grid:after, .img-food-grid:after, .minor-category-grid:after, .two-columns-grid:after, .two-grid:after, .user-story-grid:after, .selectionhelp-grid:after, .coupons-box-grid:after, .local-offers-advantages:after, .quarter-grid:after, .pampers-grid:after, .local-offers-grid:after, .brochures-grid:after, .cheapest-price-grid:after, .steps-grid:after, .box-grid:after, .top-grid:after, .shipping-grid:after, .filter-grid:after {
     content: " ";
     display: table; }
   /* line 23, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/bourbon/addons/_clearfix.css.scss */
-  .articles-grid:after, .categories-articles-grid:after, .vouchers-grid:after, .alternative-articles-grid:after, .post-grid:after, .coupons-grid:after, .procons-grid:after, .knowledge-grid:after, .cities-grid:after, .food-grid:after, .img-food-grid:after, .minor-category-grid:after, .two-columns-grid:after, .two-grid:after, .user-story-grid:after, .selectionhelp-grid:after, .coupons-box-grid:after, .local-offers-advantages:after, .quarter-grid:after, .pampers-grid:after, .local-offers-grid:after, .brochures-grid:after, .cheapest-price-grid:after, .steps-grid:after, .box-grid:after, .top-grid:after, .shipping-grid:after {
+  .articles-grid:after, .categories-articles-grid:after, .vouchers-grid:after, .alternative-articles-grid:after, .post-grid:after, .coupons-grid:after, .procons-grid:after, .knowledge-grid:after, .cities-grid:after, .food-grid:after, .img-food-grid:after, .minor-category-grid:after, .two-columns-grid:after, .two-grid:after, .user-story-grid:after, .selectionhelp-grid:after, .coupons-box-grid:after, .local-offers-advantages:after, .quarter-grid:after, .pampers-grid:after, .local-offers-grid:after, .brochures-grid:after, .cheapest-price-grid:after, .steps-grid:after, .box-grid:after, .top-grid:after, .shipping-grid:after, .filter-grid:after {
     clear: both; }
 
 /* line 13, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/layout/_grids.css.scss */
@@ -4353,3 +4353,57 @@ h4 {
     /* line 300, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
     .subscribe-box {
       padding: 20px; } }
+
+/* line 308, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+.filter-grid {
+  margin-bottom: 20px; }
+  /* line 312, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+  .filter-grid > div:first-child {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+    /* line 41, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/neat/grid/_span-columns.css.scss */
+    .filter-grid > div:first-child:last-child {
+      margin-right: 0; }
+  /* line 316, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+  .filter-grid > div:last-child {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    /* line 41, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/neat/grid/_span-columns.css.scss */
+    .filter-grid > div:last-child:last-child {
+      margin-right: 0; }
+  @media only screen and (min-device-width: 320px) and (max-width: 767px) {
+    /* line 322, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    .filter-grid > div:first-child {
+      display: block;
+      float: left;
+      margin-right: 38.19821%;
+      width: 100%; }
+      /* line 41, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/neat/grid/_span-columns.css.scss */
+      .filter-grid > div:first-child:last-child {
+        margin-right: 0; }
+    /* line 326, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    .filter-grid > div:last-child {
+      display: block;
+      float: left;
+      margin-right: 38.19821%;
+      width: 100%;
+      margin-top: 10px; }
+      /* line 41, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/neat/grid/_span-columns.css.scss */
+      .filter-grid > div:last-child:last-child {
+        margin-right: 0; } }
+
+/* line 333, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+.big-title {
+  font-size: 18px; }
+
+/* line 337, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+.small-text {
+  font-size: 14px; }
+
+/* line 341, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+.yesno-label {
+  margin: 0 30px 0 10px; }
