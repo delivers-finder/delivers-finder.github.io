@@ -4069,24 +4069,29 @@ h4 {
   font-weight: bold;
   color: #32a096; }
 
-/* line 37, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 36, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+.title {
+  font-size: 21px;
+  line-height: 32px; }
+
+/* line 42, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .center {
   text-align: center; }
 
 /******************/
 /* basic elements: wrapper, header, footer, content */
 /******************/
-/* line 45, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 50, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 #wrapper {
   max-width: 1060px;
   margin: 0 auto; }
 
-/* line 50, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 55, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 #header {
   max-width: 960px;
   margin: 10px 0 0 0; }
 
-/* line 55, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 60, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 #main-box {
   background: #fff;
   min-height: 750px;
@@ -4097,7 +4102,7 @@ h4 {
   border-top: 3px solid #32a096;
   padding: 30px 40px; }
 
-/* line 66, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 71, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 #footer {
   color: #787878;
   text-align: center;
@@ -4107,25 +4112,25 @@ h4 {
 /******************/
 /* nav styles */
 /******************/
-/* line 77, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 82, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .content a, a:link, a:visited {
   margin-top: 10px;
   color: #585858;
   text-decoration: none; }
 
-/* line 83, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 88, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .simplora-logo {
   margin: 20px 0 60px; }
   @media only screen and (min-device-width: 320px) and (max-width: 767px) {
-    /* line 83, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    /* line 88, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
     .simplora-logo {
       margin: 20px 0; } }
 
-/* line 91, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 96, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .simplora-logo-img {
   width: 160px; }
 
-/* line 95, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 100, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .error {
   display: none;
   margin: 12px auto;
@@ -4137,17 +4142,17 @@ h4 {
   color: #e4003a;
   background-color: #fce5eb; }
 
-/* line 107, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 112, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .search-form {
   text-align: center; }
 
-/* line 111, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 116, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .zipcode-input {
   margin: 40px;
   font-size: 19px;
   text-align: center; }
 
-/* line 117, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 122, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .search-form-input {
   margin-bottom: 20px;
   width: 100%;
@@ -4155,7 +4160,7 @@ h4 {
   font-size: 18px;
   text-align: center; }
 
-/* line 125, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 130, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .search-form-button {
   border: none;
   border-radius: 3px;
@@ -4168,44 +4173,44 @@ h4 {
   background-image: -webkit-linear-gradient(#2ea297, #30988f);
   background-image: linear-gradient(#2ea297, #30988f); }
 
-/* line 135, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 140, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .output {
   display: none;
   margin-top: 30px;
   text-align: center; }
 
-/* line 141, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 146, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .output-count {
   font-weight: bold; }
 
-/* line 146, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 151, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .shop {
   float: left;
   height: 80px;
   margin-top: 60px;
   text-align: center; }
 
-/* line 153, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 158, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .shop img:hover {
   cursor: pointer; }
 
-/* line 157, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 162, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .shop-image {
   max-width: 150px;
   max-height: 80px; }
 
-/* line 162, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 167, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .clear {
   clear: both; }
 
-/* line 166, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 171, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .social {
   display: none;
   border-top: 1px solid #e0e0e0;
   padding-top: 20px;
   text-align: center; }
 
-/* line 174, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 179, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .btn-social {
   display: inline-block;
   border: none;
@@ -4215,70 +4220,70 @@ h4 {
   font-size: 15px;
   text-align: center; }
 
-/* line 184, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 189, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .img-social {
   float: left;
   margin-left: 10px; }
 
-/* line 190, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 195, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .facebook {
   margin-right: 30px;
   background-color: #3b5998;
   color: #fff !important; }
 
-/* line 196, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 201, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .facebook > span {
   color: #fff !important; }
 
-/* line 199, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 204, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .twitter {
   background-color: #4099FF;
   color: #fff !important; }
 
-/* line 203, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 208, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .twitter > span {
   color: #fff !important; }
 
-/* line 207, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 212, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .steps {
   margin-bottom: 40px; }
 
-/* line 211, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 216, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .steps li {
   margin-bottom: 20px; }
 
-/* line 216, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 221, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .inner-container {
   margin: 0 80px; }
   @media only screen and (min-device-width: 320px) and (max-width: 767px) {
-    /* line 216, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    /* line 221, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
     .inner-container {
       margin: 0 10px; } }
 
-/* line 224, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 229, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .finden-divider {
   width: 100%;
   height: 1px;
   margin-top: -6px;
   border-top: 2px solid #e0e0e0; }
 
-/* line 231, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 236, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .box-grid-title {
   margin: 0 0 40px;
   line-height: 30px;
   font-size: 21px;
   text-align: center; }
 
-/* line 238, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 243, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .small-container {
   max-width: 770px;
   margin: 0 auto;
   padding: 0 10px; }
 
-/* line 244, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 249, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .shipping-grid {
   margin-bottom: 20px; }
-  /* line 247, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+  /* line 252, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
   .shipping-grid > div {
     display: block;
     float: left;
@@ -4287,15 +4292,15 @@ h4 {
     /* line 41, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/neat/grid/_span-columns.css.scss */
     .shipping-grid > div:last-child {
       margin-right: 0; }
-  /* line 251, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+  /* line 256, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
   .shipping-grid > div:first-child {
     text-align: center; }
 
-/* line 259, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 264, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .steps-grid {
   margin: 60px 0;
   text-align: center; }
-  /* line 263, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+  /* line 268, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
   .steps-grid > div {
     display: block;
     float: left;
@@ -4305,7 +4310,7 @@ h4 {
     .steps-grid > div:last-child {
       margin-right: 0; }
   @media only screen and (min-device-width: 320px) and (max-width: 767px) {
-    /* line 268, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    /* line 273, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
     .steps-grid > div {
       display: block;
       float: left;
@@ -4315,11 +4320,11 @@ h4 {
       .steps-grid > div:last-child {
         margin-right: 0; } }
 
-/* line 274, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 279, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 #mc-embedded-subscribe-form {
   margin-top: 20px; }
 
-/* line 278, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 283, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 #mc-embedded-subscribe-input {
   max-width: 100%;
   width: 350px;
@@ -4327,19 +4332,19 @@ h4 {
   margin: 10px 0;
   padding: 0 20px; }
 
-/* line 286, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 291, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .call2action-button {
   max-width: 100%;
   width: 350px; }
   @media only screen and (min-device-width: 320px) and (max-width: 767px) {
-    /* line 286, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    /* line 291, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
     .call2action-button {
       padding: 0; } }
 
-/* line 295, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+/* line 300, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
 .subscribe-box {
   padding: 40px 250px 30px 40px; }
   @media only screen and (min-device-width: 320px) and (max-width: 767px) {
-    /* line 295, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+    /* line 300, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
     .subscribe-box {
       padding: 20px; } }
