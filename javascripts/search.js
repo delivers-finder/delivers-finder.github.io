@@ -69,6 +69,9 @@ var checkShops = function(){
     availableShops = filterShops(availableShops,'shipping');
   }
 
+  outputCount.html(availableShops.length);
+  output.show();
+
   showShops(availableShops);
 
 }
