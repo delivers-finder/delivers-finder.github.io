@@ -240,4 +240,17 @@ var ga = function(name) {
   _gaq.push(['_trackEvent', 'Search Results', name , zipcode]);
 }
 
+function toggleOverlay(){
+  var overlay = $('#overlay');
+  var overlayContainer = $('#overlay-container');
+  if(overlay.css("display") == "block"){
+    overlay.hide();
+    overlayContainer.hide();
+  } else {
+    overlay.show();
+    overlayContainer.css("top", $(window).scrollTop());
+    overlayContainer.show();
+  }
+}
+
 $(document).ready(waitForInput);
