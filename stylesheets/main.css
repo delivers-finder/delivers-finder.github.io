@@ -2442,6 +2442,7 @@ em {
 /* line 162, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-shop-columns {
   *zoom: 1;
+  margin-bottom: 60px;
   position: relative;
   height: 320px;
   border: 1px dashed #e0e0e0;
@@ -2459,18 +2460,18 @@ em {
       margin-bottom: 25px;
       height: auto; } }
 
-/* line 177, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 178, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-teaser {
   margin: 20px 0;
   font-weight: bold; }
 
-/* line 183, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 184, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .divide {
   width: 100%;
   margin: 50px 0 25px;
   border-top: 1px solid #e0e0e0; }
 
-/* line 190, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 191, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-best-of-category {
   *zoom: 1; }
   /* line 17, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/bourbon/addons/_clearfix.css.scss */
@@ -2480,34 +2481,34 @@ em {
   /* line 23, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/bourbon/addons/_clearfix.css.scss */
   .knowledge-best-of-category:after {
     clear: both; }
-  /* line 193, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 194, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-best-of-category li {
     min-height: 25px; }
-  /* line 197, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 198, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-best-of-category img {
     float: left;
     margin: 2px 15px 0 0;
     width: 20px; }
-  /* line 204, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 205, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-best-of-category.top li {
     min-height: 35px; }
-    /* line 206, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+    /* line 207, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
     .knowledge-best-of-category.top li > div {
       display: inline-block; }
-  /* line 213, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 214, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-best-of-category.main li {
     height: auto; }
-    /* line 215, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+    /* line 216, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
     .knowledge-best-of-category.main li img {
       float: left;
       margin: 4px 0 0 0;
       width: 17px; }
-    /* line 220, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+    /* line 221, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
     .knowledge-best-of-category.main li .text {
       display: block;
       margin-left: 30px; }
 
-/* line 229, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 230, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-related-posts {
   *zoom: 1; }
   /* line 17, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/bourbon/addons/_clearfix.css.scss */
@@ -2517,7 +2518,7 @@ em {
   /* line 23, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/vendor/bourbon/addons/_clearfix.css.scss */
   .knowledge-related-posts:after {
     clear: both; }
-  /* line 231, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 232, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-related-posts > div {
     display: block;
     float: left;
@@ -2534,30 +2535,30 @@ em {
     .knowledge-related-posts > div:nth-child(2n+1) {
       clear: left; }
 
-/* line 239, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 240, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-anchor {
   display: block;
   position: relative;
   top: -75px;
   visibility: hidden; }
 
-/* line 247, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 248, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-images {
   margin-top: 30px; }
-  /* line 250, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 251, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-images img {
     margin-bottom: 5px; }
-  /* line 254, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 255, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-images .caption {
     word-wrap: break-word; }
 
-/* line 261, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 262, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-overlay {
   display: none; }
-  /* line 264, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 265, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-overlay div {
     text-align: center; }
-  /* line 268, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 269, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-overlay .knowledge-overlay-headline {
     margin-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
@@ -2565,19 +2566,19 @@ em {
     text-align: left;
     font-weight: bold;
     font-size: 18px; }
-  /* line 276, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+  /* line 277, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
   .knowledge-overlay .knowledge-overlay-source {
     display: inline-block;
     font-size: 12px; }
-    /* line 279, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+    /* line 280, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
     .knowledge-overlay .knowledge-overlay-source span {
       font-size: 12px; }
 
-/* line 287, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 288, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .shop-infos img {
   margin: 40px 0 20px; }
 
-/* line 299, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
+/* line 300, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_knowledge.css.scss */
 .knowledge-divider {
   width: 100%;
   margin-top: 20px;
