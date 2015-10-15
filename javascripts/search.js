@@ -214,9 +214,7 @@ var getZipcode = function() {
   } 
   catch (error) {
     var name = 'zipcode=';
-    console.log('name '+name);
     var ca = document.cookie.split(';');
-    console.log('ca '+ca);
     for(var i=0; i<ca.length; i++) {
       var c = ca[i];
       while (c.charAt(0)==' ') c = c.substring(1);
