@@ -4183,7 +4183,7 @@ h4 {
   width: 100%;
   padding: 13px 0;
   font-size: 18px;
-  color: #fff;
+  color: #fff !important;
   background-color: #32a096;
   background-image: _deprecated-webkit-gradient(linear, left top, left bottom, #2ea297, #30988f);
   background-image: -webkit-linear-gradient(#2ea297, #30988f);
