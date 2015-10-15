@@ -3,7 +3,7 @@ var checkZipcode = function(zipcode){
     if (!zipRegex.test(zipcode)){
       $('.error').show();
     }else{
-      localStorage.setItem('zipcode', zipcode);
+      saveZipcode(zipcode);
       _gaq.push(['_trackEvent', 'Search Terms', 'PLZ', zipcode]);
       location.href = '/suche';
     }
@@ -23,6 +23,17 @@ var waitForInput = function(){
 
 var ga = function(name) {
   _gaq.push(['_trackEvent', 'Search Results', name , zipcode]);
+}
+
+var saveZipcode = function(item) {
+    var storage = window.localStorage;
+
+    try {
+      storage.setItem('zipcode', item);
+    } 
+    catch (error) {
+      document.cookie='zipcode='+item;
+    }
 }
 
 $(document).ready(waitForInput);

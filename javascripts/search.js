@@ -205,9 +205,32 @@ var initModels = function(){
 }
 
 
+var getZipcode = function() {
+  var storage = window.localStorage;
+  try {
+    var item = storage.getItem('zipcode');
+    storage.setItem('zipcode', item);
+    return item;
+  } 
+  catch (error) {
+    var name = 'zipcode=';
+    console.log('name '+name);
+    var ca = document.cookie.split(';');
+    console.log('ca '+ca);
+    for(var i=0; i<ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1);
+      if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    }
+    return undefined;
+  }
+}
+
+
 var waitForInput = function(){
-  zipcode = localStorage.getItem('zipcode');
-  if(zipcode){
+  zipcode = getZipcode();
+  
+  if(zipcode && zipcode.length > 1){
     $('.selected-zipcode').html(zipcode);
     initModels();
     counter = 6;
