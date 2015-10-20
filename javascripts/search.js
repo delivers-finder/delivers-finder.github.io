@@ -118,7 +118,7 @@ var initModels = function(){
     available: true,
     fresh: true,
     frozen: true,
-    shipping: false
+    shipping: true
   }
 
   rossmannModel = {
@@ -259,6 +259,10 @@ var waitForInput = function(){
 
 var ga = function(name) {
   _gaq.push(['_trackEvent', 'Search Results', name , zipcode]);
+}
+
+var voucherTracking = function(shop) {
+	_gaq.push(['_trackEvent', 'Search Results', 'newsletter sign up' , shop]);
 }
 
 function toggleOverlay(){

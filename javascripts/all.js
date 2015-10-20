@@ -4,7 +4,7 @@ var checkZipcode = function(zipcode){
       $('.error').show();
     }else{
       saveZipcode(zipcode);
-      _gaq.push(['_trackEvent', 'Search Terms', 'PLZ', zipcode]);
+      _gaq.push(['_trackEvent', 'Landingpage', 'PLZ', zipcode]);
       location.href = '/suche';
     }
 }
@@ -19,10 +19,6 @@ var waitForInput = function(){
     checkZipcode(zipcode);
   });
 
-}
-
-var ga = function(name) {
-  _gaq.push(['_trackEvent', 'Search Results', name , zipcode]);
 }
 
 var saveZipcode = function(item) {
