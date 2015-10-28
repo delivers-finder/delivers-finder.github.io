@@ -109,7 +109,7 @@ var initModels = function(){
     name: 'allyouneed',
     available: true,
     fresh: true,
-    frozen: false,
+    frozen: true,
     shipping: true
   }
 
