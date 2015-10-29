@@ -262,7 +262,7 @@ var ga = function(name) {
 }
 
 var voucherTracking = function(shop) {
-	_gaq.push(['_trackEvent', 'Search Results', 'newsletter sign up' , shop]);
+	_gaq.push(['_trackEvent', 'Search Results', 'get voucher-booklet' , shop]);
 }
 
 function toggleOverlay(){
