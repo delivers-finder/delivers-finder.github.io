@@ -10,7 +10,7 @@ var real = ['10115','10117','10119','10178','10179','10243','10245','10247','102
 var zipcode, shopContainer, output, outputCount, social, counter;
 var possibleShops = [];
 
-var allyouneedModel, mytimeModel, rossmannModel, edeka24Model, lebensmittelModel, lidlModel, freshfoodsModel, emmasenkelModel, reweModel, fooddeModel, bringmeisterModel, realModel;
+var allyouneedModel, mytimeModel, rossmannModel, edeka24Model, lebensmittelModel, lidlModel, freshfoodsModel, emmasenkelModel, reweModel, fooddeModel, bringmeisterModel, realModel, amazonPantryMode, dmModel;
 var collection = [];
 
 var showShops = function(shops){
@@ -113,6 +113,19 @@ var initModels = function(){
     shipping: true
   }
 
+  dmModel = {
+    name: 'dm',
+    available: true,
+    fresh: true,
+    frozen: true,
+    shipping: true
+  }
+
+  amazonPantryModel = {
+    name: 'amazon-pantry',
+    available: true
+  }
+
   mytimeModel = {
     name: 'mytime',
     available: true,
@@ -201,7 +214,7 @@ var initModels = function(){
     shipping: false
   }
 
-  collection = [allyouneedModel, mytimeModel, rossmannModel, edeka24Model, freshfoodsModel, emmasenkelModel, lebensmittelModel, lidlModel, reweModel, fooddeModel, bringmeisterModel, realModel];
+  collection = [allyouneedModel,dmModel, mytimeModel, amazonPantryModel, rossmannModel, edeka24Model, freshfoodsModel, emmasenkelModel, lebensmittelModel, lidlModel, reweModel, fooddeModel, bringmeisterModel, realModel];
 }
 
 

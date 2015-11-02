@@ -15,7 +15,7 @@ var waitForInput = function(){
   $('.search-form').submit(function(ev){
     ev.preventDefault();
     $('.error').hide();
-    zipcode = $(this).find('input.search-form-input').val();
+    zipcode = $(this).find('input[name=zipcode]').val();
     checkZipcode(zipcode);
   });
 
