@@ -160,11 +160,11 @@ em {
   color: #454545; }
 
 /* line 26, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.vouchers-box a, .savings-box a, .single-voucher-box a, .medium-overlay-box-content a, .coupons-box-actions a, .articles-grid-empty .articles-grid-empty-result a, .articles-grid-empty > .articles-grid-empty-description a, ul.alternative-shops-list a, .grid-title a {
+.vouchers-box a, .savings-box a, .single-voucher-box a, .medium-overlay-box-content a, .coupons-box-actions a, .articles-grid-empty .articles-grid-empty-result a, .articles-grid-empty > .articles-grid-empty-description a, ul.alternative-shops-list a, .grid-title a, .landing-help-link a {
   color: #32a096;
   text-decoration: none; }
 /* line 31, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
-.vouchers-box a:hover, .savings-box a:hover, .single-voucher-box a:hover, .medium-overlay-box-content a:hover, .coupons-box-actions a:hover, .articles-grid-empty .articles-grid-empty-result a:hover, .articles-grid-empty > .articles-grid-empty-description a:hover, ul.alternative-shops-list a:hover, .grid-title a:hover {
+.vouchers-box a:hover, .savings-box a:hover, .single-voucher-box a:hover, .medium-overlay-box-content a:hover, .coupons-box-actions a:hover, .articles-grid-empty .articles-grid-empty-result a:hover, .articles-grid-empty > .articles-grid-empty-description a:hover, ul.alternative-shops-list a:hover, .grid-title a:hover, .landing-help-link a:hover {
   color: #267972; }
 
 /* line 38, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/base/_links.css.scss */
@@ -4680,3 +4680,10 @@ h4 {
     .landing-zip-input {
       width: 90%;
       margin-bottom: 20px; } }
+
+/* line 588, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+.landing-help-link {
+  margin-top: 80px; }
+  /* line 592, /Users/vanessa/Work/simplora/simplora-delivers/source/stylesheets/pages/_finden.css.scss */
+  .landing-help-link a {
+    color: #32a096; }
